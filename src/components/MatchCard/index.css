@@ -1,0 +1,64 @@
+.matchListItem {
+  width: 30%;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 18px;
+  background-color: #1e293b;
+  align-items: center;
+  margin: 15px;
+  margin-bottom: 25px;
+}
+.competingImgInMatchCard {
+  width: 125px;
+  height: 155px;
+  margin-bottom: 12px;
+}
+.cardHeading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  margin: 8px;
+}
+.cardPara1 {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  margin-top: 50px;
+}
+.cardPara {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  margin: 20px;
+}
+.green {
+  font-weight: bold;
+  color: green;
+  font-size: 25px;
+}
+.red {
+  font-weight: bold;
+  color: red;
+  font-size: 25px;
+}
+@media (max-width: 576px) {
+  .matchListItem {
+    width: 45%;
+    margin: 8px;
+  }
+  .competingImgInMatchCard {
+    width: 85px;
+    height: 85px;
+    margin: 25px;
+  }
+  .cardHeading {
+    font-size: 18px;
+  }
+  .cardPara1 {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,38 @@
+.link-team {
+  width: 43%;
+  border: 1px solid #ffffff;
+  background-color: #ffffff33;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 6px;
+  text-decoration: none;
+}
+.listItem {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.teamImage {
+  width: 75px;
+  height: 95px;
+  margin: 14px;
+}
+
+.teamName {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+}
+@media (max-width: 576px) {
+  .link-team {
+    width: 44%;
+  }
+  .teamName {
+    font-size: 15px;
+  }
+  .teamImage {
+    width: 55px;
+    height: 75px;
+  }
+}

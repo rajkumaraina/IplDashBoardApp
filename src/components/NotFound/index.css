@@ -1,0 +1,11 @@
+.notFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainHeading {
+  color: #ffffff;
+  font-size: 60px;
+  font-family: 'Bree Serif';
+}

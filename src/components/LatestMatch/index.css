@@ -1,0 +1,83 @@
+.LatestMatch {
+  background-color: #1e293b;
+  display: flex;
+  height: 380px;
+  border-radius: 8px;
+}
+.part {
+  width: 33%;
+}
+.part3 {
+  width: 33%;
+}
+.competingTeam {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 23px;
+}
+.MatchDate {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 20px;
+}
+.info {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+.competingTeamLogo {
+  width: 70%;
+  margin-left: 25px;
+  height: 250px;
+}
+.infoAboutMatch {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 20px;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 35px;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.three {
+  text-align: end;
+  padding-right: 35px;
+}
+@media (max-width: 576px) {
+  .one {
+    padding-left: 15px;
+  }
+  .competingTeamLogo {
+    margin-left: 0px;
+  }
+  .info {
+    font-size: 16px;
+
+    margin: 4px;
+  }
+  .three {
+    padding-left: 15px;
+  }
+  .infoAboutMatch {
+    font-size: 22px;
+  }
+  .LatestMatch {
+    flex-wrap: wrap;
+    height: 700px;
+  }
+  .part {
+    width: 48%;
+  }
+  .part3 {
+    width: 100%;
+    border-top: 3px solid #475569;
+    text-align: start;
+  }
+}
